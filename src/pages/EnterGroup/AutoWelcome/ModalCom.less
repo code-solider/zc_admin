@@ -1,0 +1,74 @@
+.modal {
+    min-width: 1000px;
+    top: 70px;
+
+    .content_wrap {
+        width: 800px;
+        margin: 0 auto;
+
+        .item {
+            margin-top: 10px;
+
+            .one_line {
+                display: flex;
+                justify-content: space-between;
+
+                .title {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #000;
+                }
+            }
+
+            .two_line {
+                margin: 5px 0 0;
+            }
+
+            .footer {
+                color: #ccc;
+            }
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        .config {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px 0 0;
+            justify-content: space-around;
+
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .one_line {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .btn {
+                    button {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            .table {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .addwzModal {
+        .row {
+            .l {
+                text-align: right;
+            }
+        }
+    }
+}
